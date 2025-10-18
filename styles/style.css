@@ -145,11 +145,6 @@ body {
 }
 
 .lots {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  min-height: 723px;
   margin: 180px 24px 0;
 }
 
@@ -163,10 +158,12 @@ body {
 
 .lots__card-list {
   display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
   justify-content: space-between;
   align-items: start;
   list-style: none;
-  /*no height ,':)*/
+  margin: 27px 0 30px 0;
 }
 
 .card-link {
